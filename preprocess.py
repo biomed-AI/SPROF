@@ -141,12 +141,12 @@ def om_generate(path,name):
 
     for row in rows:
         arr = row.split(' ')
-        m0.append(sin(float(arr[2])))
-        m1.append(cos(float(arr[2])))
-        m2.append(sin(float(arr[3])))
-        m3.append(cos(float(arr[3])))
-        m4.append(sin(float(arr[4])))
-        m5.append(cos(float(arr[4])))
+        m0.append(sin(float(arr[2])/180*pi))
+        m1.append(cos(float(arr[2])/180*pi))
+        m2.append(sin(float(arr[3])/180*pi))
+        m3.append(cos(float(arr[3])/180*pi))
+        m4.append(sin(float(arr[4])/180*pi))
+        m5.append(cos(float(arr[4])/180*pi))
     om = np.stack((m0, m1, m2, m3, m4, m5))
     f.close()
     return om
@@ -164,10 +164,10 @@ def theta_generate(path, name):
 
     for row in rows:
         arr = row.split(' ')
-        m0.append(sin(float(arr[2])))
-        m1.append(cos(float(arr[2])))
-        m2.append(sin(float(arr[3])))
-        m3.append(cos(float(arr[3])))
+        m0.append(sin(float(arr[2])/180*pi))
+        m1.append(cos(float(arr[2])/180*pi))
+        m2.append(sin(float(arr[3])/180*pi))
+        m3.append(cos(float(arr[3])/180*pi))
     om = np.stack((m0, m1, m2, m3))
     f.close()
     return om
