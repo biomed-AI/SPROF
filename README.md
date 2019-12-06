@@ -141,7 +141,7 @@ The CASP13 test set has been included in the repository, so you can test our mod
 ## Cite
 If you find this work useful in your research, please consider citing the paper:  
 **"To Improve Protein Sequence Profile Prediction through Image Captioning on Pairwise Residue Distance Map"**
-https://www.biorxiv.org/content/10.1101/628917v2
+https://pubs.acs.org/doi/10.1021/acs.jcim.9b00438
 
 ## Contact
 `yuedong.yang@gmail.com`or `chensh88@mail2.sysu.edu.cn`
